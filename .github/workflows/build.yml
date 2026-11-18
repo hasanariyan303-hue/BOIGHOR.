@@ -22,10 +22,9 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Unzip Web Project
-        # নিচে 'your_file.zip' এর জায়গায় তোর আপলোড করা জিপ ফাইলের আসল নামটি দিবি
         run: |
           mkdir public
-          unzip your_file.zip -d public/
+          unzip "boighor-netlify (1).zip" -d public/
 
       - name: Setup Pages
         uses: actions/configure-pages@v5
